@@ -1,0 +1,20 @@
+/* Ensure that all elements take up 100% of the viewport height */
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the container to center content both horizontally and vertically */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+/* Style the header text */
+h1 {
+    font-size: 3em;
+    color: #333;
+}
